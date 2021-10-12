@@ -1,0 +1,66 @@
+
+  .main-image {
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .main-image img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  }
+  .foot{
+    background-color:#38015c ;
+    position:absolute;
+    bottom:5px;
+    border-radius: 4px ;
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+  @media screen and (max-width:500px){
+    .foot{
+   position:relative;
+    display:block;
+    bottom: 0rem;
+    font-size: 0.4rem;
+
+  
+    }
+  }
+  
+  .Button {
+    font: inherit;
+  background-color:#38015c;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 1rem auto;
+  /* position:absolute; */
+  /* right:7.8re; */
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width:20%;
+  
+    
+  }
+  @media screen and (max-width:500px){
+    .Button{
+   font-size: 0.5rem;
+      text-align: center;
+  
+    }
+  }
+  
+   .Button:hover {
+    background-color: #c291e2;
+    color: #38015c; 
+  }

@@ -1,0 +1,26 @@
+.form {
+    text-align: right;
+  }
+  
+  .btn {
+    font: inherit;
+    cursor: pointer;
+    background-color: #38015c;
+    border: 1px solid white;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  @media screen and (max-width:500px){
+    .btn{
+      font-size:.4rem;
+    }
+  }
+  
+  .btn:hover,
+  .btn:active {
+    background-color: #c291e2;
+    border-color: #c291e2;
+  }
