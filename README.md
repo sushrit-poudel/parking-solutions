@@ -1,5 +1,5 @@
 Live demo - https://myparkingsolutions.web.app/
-# parkingsolutions
+# parking-solutions
 Created a Parking Website Using **React + Firebase**.
  * User can **book a slot** based on his preferences. 
  * There are two booking options i.**Book for Today** ii. **Book in Advance**.
